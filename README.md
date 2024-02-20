@@ -29,7 +29,13 @@ Postgre SQL Database will connect from SubnetB and host the database.
 - **How to run the code**:-
 
 Open the folder project in Visual Basic Code 
-Open the terminal and run below command to check the infrastructure 
+Open the terminal and run below commands:-
+
+To initialize the working directory code and download necessary plugins.
+
+**terraform init** 
+
+To check the infrastructure 
 
 **terraform plan -out main.tfplan**
 
