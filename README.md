@@ -29,7 +29,7 @@ Postgre SQL Database will connect from SubnetB and host the database.
 - **How to run the code**:-
 
 Open the folder project in Visual Basic Code 
-Open the terminal and run below commands:-
+Open: the terminal and run below commands:-
 
 To initialize the working directory code and download necessary plugins.
 
@@ -44,3 +44,5 @@ It will show the no. of resources will be created on Azure, verify the resources
 Now run **terraform apply main.tfplan**
 
 It will successfully create all the resources which is showed in terraform plan command.
+
+**Note**:The user values can be changed from main.tf file and infrastructure will be changed accordingly.
